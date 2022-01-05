@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- 1. Owl Carousel Min.Css -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!--   2. Owl Carousel Theme Min.css -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- Testimonials -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/Javascript/JS.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/Css/normalize.css">
+    <link rel="stylesheet" href="assets/Css/nav.css">
+    <link rel="stylesheet" href="assets/Css/style.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+
+
+    <title>Restaurant</title>
+</head>
+
+<body>
+
+    <!--   <div class="page-loader">
+        <div class="spinner"></div>
+        <div class="txt">Bøf og Vin</div>
+
+    </div> -->
+   
+
+    <!----------------Navigation ------------------->
+    <nav class="nav-desktop">
+        <div>
+            <a href="index.html">
+                <img class="logo" src="assets/Images/Bof-vin_LOGO.svg" alt="">
+            </a>
+        </div>
+
+        <div class="nav-links">
+            <a class="nav-a active" href="index.html">Home</a>
+            <a class="nav-a" href="menu.html#menu">Menu</a>
+            <a class="nav-a" href="know-us.html">Know Us</a>
+            <a class="nav-a" href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="nav-reserve-btn">
+            <a class="all-buttons reserve-btn-nav" href="#">Reservation<i class="far fa-calendar-alt i-reserve"></i></a>
+        </div>
+
+    </nav>
+
+    <!-- Burger menu -->
+    <nav id="nav-mobile" class="nav-mobile">
+        <div>
+            <a href="index.html">
+                <img class="logo" src="assets/Images/Bof-vin_LOGO.svg" alt="">
+            </a>
+        </div>
+
+
+
+
+        <div id="burger-menu" class="burger-menu">
+            <!-- Burger menu -->
+
+            <svg>
+                <defs>
+                    <filter id="gooeyness">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10"
+                            result="gooeyness" />
+                        <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+                    </filter>
+                </defs>
+            </svg>
+            <div class="plates">
+
+                <div class="plate plate4" onclick="this.classList.toggle('active')">
+                    <svg class="burger" version="1.1" height="100" width="100" viewBox="25 25 50 50">
+                        <path class="line line1" d="M 50,35 H 30" />
+                        <path class="line line2" d="M 50,35 H 70" />
+                        <path class="line line3" d="M 50,50 H 30" />
+                        <path class="line line4" d="M 50,50 H 70" />
+                        <path class="line line5" d="M 50,65 H 30" />
+                        <path class="line line6" d="M 50,65 H 70" />
+                    </svg>
+                    <svg class="x" version="1.1" height="100" width="100" viewBox="25 25 50 50">
+                        <path class="line" d="M 34,32 L 66,68" />
+                        <path class="line" d="M 66,32 L 34,68" />
+                    </svg>
+                </div>
+
+
+            </div>
+    </nav>
+
+    <div id="mobile-nav-box" class="mobile-nav-box hide">
+        <ul class="nav-ul">
+            <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+            <li class="nav-li"><a class="nav-a" href="menu.html#menu">Menu</a></li>
+            <li class="nav-li"><a class="nav-a" href="know-us.html">Know Us</a></li>
+            <li class="nav-li"><a class="nav-a" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-reserve-btn">
+            <a class="all-buttons-mobile reserve-btn-nav-mobile" style="background-color: white; color: #96192B;"
+                href="#">Reservation<i class="far fa-calendar-alt i-reserve"></i></a>
+        </div>
+    </div>
+
+    <!----------------------------Navigation Ends ----------------------------------------------->
+
+    <main>
+
+        <div class="grid-landing">
+
+            <h1 class="welcome-title">WELCOME TO BØF OG VIN</h1>
+            <p class="landing-intro">Food, Service and the prime Location makes Bøf og Vin the perfect place for friends
+                & family to come together and have great time. We have many years of experience in the industry, and we
+                are known for our delicious steaks here, in
+                <b>Aalborg.</b>
+            </p>
+
+            <!-- buttons -->
+
+            <div class="landing-menu-button">
+                <a class="all-buttons menu-btn" href="#">MENU</i></a>
+            </div>
+
+            <div class="landing-monthly-menu-button">
+                <a class="all-buttons monthly-menu-btn-1" href="#">MONTHLY MENU</i></a>
+            </div>
+
+            <!-- Arrow  -->
+
+            <a href="index-Laura.html#video">
+                <div class="arrow-container">
+                    <div class="arrow-down">
+                    </div>
+            </a>
+
+        </div>
+        </div>
+
+        </div>
+
+        </div>
+
+
+        <!--  Video Section  -->
+        <div id="bg">
+            <img src="assets/Images/Backgound-test-4.jpg" alt="landing-page">
+        </div>
+
+        <div class="video-section">
+
+            <div class="video">
+                <video controls width="65%" height="100%">
+                    <source src="assets/Video/Bf og Vin.mp4" type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </div>
+
+            <div class="video-text" id="video">
+                <!-- hr -->
+
+                <!--     <hr width="70rem;" color="#96192B" size="2"> -->
+
+                <div class="line-red"></div>
+                <div class="line-text">
+                    <div class="line-red"></div>
+                    <p> &nbsp; KNOW US</p>
+                </div>
+
+
+                <!--   <h1 class="hr-headline" id="video">KNOW US</h1> -->
+
+                <h1 class="video-title">Disvover our story</h1>
+                <p class="video-p">The people, food and the prime locations make Bøf og<br> Vin the perfect place for
+                    good friends & family to come <br>together and have great time. Everytime you perfectly<br> dine
+                    with us, it should happy for great inspired food in<br> an environment designed with individual
+                    touches
+                    <br> unique to the local area.
+                </p>
+
+                <div class="read-more-btn">
+                    <a class="all-buttons read-more-btn" href="#">READ MORE</i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <article>
+
+        <!--   Working hours section -->
+        <div class="working-hours-section">
+
+            <!--    First Box -->
+            <div class="working-hours-box1">
+                <!-- hr -->
+
+                <div class="line-red" id="opening-h"></div>
+                <div class="line-text">
+                    <div class="line-red"></div>
+                    <p> &nbsp; OPENING</p>
+                </div>
+
+                <h1 class="working-hours-title">Working Hours</h1>
+                <p class="working-hours-p">Here you can check opening hours of Bøf og Vin. <br>You can also do a
+                    reservation by calling or doing<br> it online and prebooking menu is available! </p>
+                <h1 class="corona-information">Don’t forget to bring CORONA PASS and to wear masks!</h1>
+
+                <a class="all-buttons contact-us-btn" href="#">CONTACT US</i></a>
+
+            </div>
+
+            <!------ Second Box ------->
+            <div class="working-hours-box2">
+                <p class="working-schedule">
+                    Monday to Thursday:<br>
+                    <b>17:00<br></b>
+                    <b>22:00<br><br></b> Friday to Saturday:<br>
+                    <b>16:00<br></b>
+                    <b>23:00<br><br></b> Sunday:
+                    <br>
+                    <b style="color: #96192B;">Closed</b><br>
+                </p>
+            </div>
+        </div>
+        </main>
+
+        <!-------- Carousel ------->
+
+        <div class="container-fluid my-5">
+            <h1 class="carousel-title">Explore Our Menu</h1>
+            <h2 class="carousel-title1">We offer a variety of dishes plus a monthly menu</h2>
+
+            <div class="row mt-5">
+                <div class="owl-carousel owl-theme">
+                    <a href="menu.html#starters" class="item mb-4" id="no-underline">
+                        <div class="card border-0 shadow">
+                            <img src="assets/Images/monthly-menu-starter.jpg" alt="cake-img" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Starters</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--   Ends -->
+
+                    <a href="menu.html#mainCourse" class="item mb-4" id="no-underline">
+                        <div class="card border-0 shadow">
+                            <img src="assets/Images/monthly-menu-main.jpg" alt="cake-img" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Main Course</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--   Ends -->
+
+                    <a href="menu.html#desserts" class="item mb-4" id="no-underline">
+                        <div class="card border-0 shadow">
+                            <img src="assets/Images/monthly-menu-dessert.jpg" alt="cake-img" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Desserts</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--   Ends -->
+                    <a href="menu.html#drinks" class="item mb-4" id="no-underline">
+                        <div class="card border-0 shadow">
+                            <img src="assets/Images/drink-carousel.jpg" alt="cake-img" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Drinks</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--   Ends -->
+
+                    <a href="menu.html#children" class="item mb-4" id="no-underline">
+                        <div class="card border-0 shadow">
+                            <img src="assets/Images/kids menu.jpg" alt="cake-img" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Children's
+                                </h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--   Ends -->
+
+                    <a href="menu.html#luxury" class="item mb-4" id="no-underline">
+                        <div class="card border-0 shadow">
+                            <img src="assets/Images/luxury menu.jpg" alt="cake-img" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Luxury</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!------------------ Ends ------------------->
+                </div>
+            </div>
+        </div>
+
+        <div class="explore-button">
+            <a class="all-buttons explore-menu-btn" href="menu.html#menu">EXPLORE FULL MENU</i></a>
+        </div>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!--  jquery cdn-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!--     1. Owl Carousel Min.js   -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script src="assets/Java/JS.js" defer></script>
+
+    </article>
+
+    <!----------- Carousel Ends ------>
+
+    <figure>
+
+        <div class="Monthly-box">
+            <h1 class="monthly-title">
+                Monthly Menu
+            </h1>
+            <h2 class="monthly-title1">
+                Try a special menu every month
+            </h2>
+        </div>
+
+        <!--------------------------------Monthly Menu ------------------------------------->
+        <div id="container">
+
+            <a href="menu.html#luxury">
+                <div class="container">
+                    <div class="wrap">
+                        <img src="assets/images/monthly-menu-starter.jpg" alt="Starters" />
+                        <p class="centered">Starters</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="menu.html#luxury">
+                <div class="container">
+                    <div class="wrap">
+                        <img src="assets/images/main-monthly.jpg" alt="Main Course" />
+                        <p class="centered" id="main-course">Main Course</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="menu.html#luxury">
+                <div class="container">
+                    <div class="wrap">
+                        <img src="assets/images/dessert-monthly.jpg" alt="Dessert" />
+                        <p class="centered">Dessert</p>
+                    </div>
+                </div>
+        </div>
+        </a>
+
+
+        <div class="monthly-btn">
+            <a class="all-buttons monthly-menu-btn" href="menu.html#monthly-menu">EXPLORE MONTHLY MENU</i></a>
+        </div>
+
+
+        <!------------------------------------------- Events --------------------------------------------------->
+
+        <div class="box-event">
+
+            <h1 class="event-title">
+                Group tables
+            </h1>
+            <h2 class="event-title1">
+                We can be perfect place for
+            </h2>
+
+            <!--  First Box -->
+
+            <div class="text-box">
+                <h1 class="text-box-h1">Occasions</h1>
+                <p class="text-box-p"> Bøf og Vin is a perfect place for your occasion! We have a facility for birthday
+                    party, company meeting, or Julefrokost! If you have more questions according to seat number or food
+                    menu, you can call us: +45 86 31 88 88 or write an email:
+                    info@bofogvin.dk. See YOU at Bøf og Vin!
+                </p>
+            </div>
+
+            <div class="text-img">
+                <img src="assets/Images/occasion.jpg" width="100%">
+            </div>
+
+
+            <!-- ------------------------ -->
+
+            <div class="text-box-1">
+                <h1 class="text-box-1-h1">Dinning</h1>
+                <p class="text-box-1-p"> Bøf og Vin is a perfect place for meeting your friends, family or having a
+                    dinner with your loved ones. For the special occasion, we can offer a three meal course or a special
+                    monthly menu. You can do reservation by calling us:+45 86 31
+                    88 88 or doing it online. See YOU at Bøf og Vin!
+                </p>
+            </div>
+            <div class="text-img-1">
+                <img src="assets/Images/ordinary-1 (1).jpg" width="100%">
+            </div>
+
+            <div class="reserve-landing">
+                <a class="all-buttons reserve-btn" href="#">RESERVATION<i class="far fa-calendar-alt i-reserve"></i></a>
+            </div>
+        </div>
+
+    </figure>
+
+    <!-- Testimonials -->
+    <section class="container-testimonials">
+
+        <div class="section-title">
+            <h2>What Clients Say</h2>
+        </div>
+
+        <div class="section-title-p">
+            <p>The oppinion of our clients matters </p>
+        </div>
+
+
+        <div class="testimonials-carousel-wrap">
+            <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right"
+                    style="color: #fff;"></i></div>
+            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left"
+                    style="color: #fff;"></i></div>
+
+        </div>
+        <div class="testimonials-carousel">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="assets/images/avatar-4.png"></div>
+
+                            <div class="testimonials-text">
+                                <h3>John Doe</h3>
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <p>Fantastic place with really nice service, best steak I have ever tasted! The place is
+                                    simple but cozy and the price is really good for the quality as the food is served!
+                                    We would love to come back! Everything had a homemade
+                                    taste and not a lot of produced feeling but proper food made from scratch!
+                                </p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>2021/10/21</h3>
+                                    <a href="https://goo.gl/maps/eGcvGXbyTtGfAmvb8" target="_blank">
+                                        <h4>Google reviews source</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Second Testimonial -->
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="assets/images/avatar-8.png"></div>
+
+                            <div class="testimonials-text">
+                                <h3>Thomas Bøgh</h3>
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <p>Really good taste experience and super service. Their striploin steak was the
+                                    highlight of the dinner. Would definitely recommend to anyone who wants to have
+                                    family or friends out to dinner. Also very close to the harbour,
+                                    to enjoy the view after the dinner and go for a walk.
+                                </p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>2021/08/02</h3>
+                                    <a href="https://goo.gl/maps/vy3kJ8VggWsdE6uE8" target="_blank">
+                                        <h4>Google reviews source</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--   Third Testimonial -->
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="assets/images/avatar-6.png"></div>
+
+                            <div class="testimonials-text">
+                                <h3>Steffen Nysum</h3>
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <p>The place is cozy, there is a good atmosphere and the waiters are mega sweet and
+                                    attentive. We got the Autumn menu, with 3 dishes (crayfish tails, tenderloin and
+                                    chocolate mousse), all of which were well cooked and tasted
+                                    great.The wine for the food was not expensive. We will definitely come again👍🙂
+                                </p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>2021</h3>
+                                    <a href="https://goo.gl/maps/HhQJY7J72BmZer3b9" target="_blank">
+                                        <h4>Google reviews source</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--  fourth testimonial -->
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="assets/images/avatar-7.png"></div>
+
+                            <div class="testimonials-text">
+                                <h3>Tina</h3>
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <p>Got recommended this restaurant and their luxury menu - and it is definitely not
+                                    without reason. Got a very delicious lobster with prawns for starters, a passion
+                                    fruit sorbet, a whimsical touch, but a suitable balance between
+                                    acidity and sweetness and then we were definitely ready for the best fried beef
+                                    tenderloin we've had in a long time!
+                                </p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>2021/07/17</h3>
+                                    <a href="https://www.tripadvisor.dk/ShowUserReviews-g189529-d12148896-r797709564-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html?m=19905"
+                                        target="_blank">
+                                        <h4>Trip Advisor</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Fifth Testimonial -->
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="assets/images/avatar-5.png"></div>
+
+                            <div class="testimonials-text">
+                                <h3>Kamilla Josefsen</h3>
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+
+                                </div>
+
+                                <p>All in all, an incredibly nice experience, the house wine was really good, the steak
+                                    cooked perfectly and the service absolutely top notch, you could get it lukewarm as
+                                    you would gift it. The decor could possibly also have
+                                    been more stimulating, but it can not be eaten so puddle.
+                                </p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>2020/01/05</h3>
+                                    <a href="https://www.tripadvisor.dk/ShowUserReviews-g189529-d12148896-r736992029-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                                        target="_blank">
+                                        <h4>Trip Advisor</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--  Testimonial end -->
+                </div>
+            </div>
+        </div>
+
+        <div class="tc-pagination"></div>
+        </div>
+
+    </section>
+
+
+    <!------------------------------------------ Footer -------------------------------------->
+
+    <!-- FOOTER DESKTOP-->
+
+    <footer class="footer-desktop">
+        <div class="foot-ratings">
+            <h3 class="footer-h3">Ratings</h3>
+            <div class="reviews">
+                <div class="review-wrapper">
+                    <a target="_blank"
+                        href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                        class="ratings-a"><img class="img-review" src="assets/Images/google logo.svg"
+                            alt="Google Reviews"></a> <a target="_blank"
+                        href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                        class="ratings-a">Google Reviews</a>
+                </div>
+                <div class="review-wrapper">
+                    <a target="_blank"
+                        href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                        class="ratings-a"><img class="img-review" src="assets/Images/TripAdvisor logo.svg"
+                            alt="TripAdvisor"></a> <a target="_blank"
+                        href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                        class="ratings-a">TripAdvisor</a>
+                </div>
+
+            </div>
+            <div class="review-wrapper">
+                <a target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-a"><img class="img-review" src="assets/Images/Kontrol Report.svg"
+                        alt="Kontrol Report"></a> <a target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-a">Kontrol Report</a>
+            </div>
+        </div>
+
+        <div class="vl"></div>
+
+        <div class="foot-contact-us">
+            <h3 class="footer-h3">Contact Us</h3>
+
+            <div class="fo-icons">
+                <p class="footer-p">CALL: &emsp;<a target="_blank" href="mailto:" class="footer-a">+45 86 31 88
+                        88</a>
+                </p>
+                <p class="footer-p">EMAIL: &emsp; <a target="_blank" href="mailto:"
+                        class="footer-a">info@bofogvin.dk</a></p>
+                <p class="footer-p">ADDRESS: <a target="_blank" href="mailto:" class="footer-a">Østerågade 18 C,
+                        9000
+                        Aalborg</a></p>
+            </div>
+            <div class="fo-icons">
+
+                <a target="_blank" href="https://www.facebook.com/BofogVin/" class="img-a"><img class="img-social"
+                        src="assets/Images/Facebook.svg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/bofogvin/" class="img-a"><img class="img-social"
+                        src="assets/Images/Instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+
+        <div class="vl"></div>
+
+
+        <div class="foot-opening-hours">
+            <h3 class="footer-h3">Opening Hours</h3>
+            <div>
+                <p class="footer-p opening-h-p">
+                    <strong style="color: #ffffff;">Monday – Thursday:</strong> &ensp; - kl. 17:00 – 22:00
+                    <br> <strong style="color: #ffffff;">Friday – Saturday: </strong> &emsp; - kl . 16:00 – 23:00
+                    <br> <strong style="color: #ffffff;">Sunday:</strong> &ensp; - Lukket.
+                </p>
+            </div>
+            <a class="footer-a " style="font-weight: 600;" href="contact.html">FAQ</a>
+        </div>
+        <!-- </div> -->
+    </footer>
+    </div>
+
+    <!-- FOOTER MOBILE-->
+
+    <footer class="footer-mobile">
+        <div class="ratings-contact-wrap-mr">
+            <div class="reviews-mr">
+                <div class="foot-ratings">
+                    <h3 class="footer-h3">Ratings</h3>
+                    <div class="reviews">
+                        <div class="review-wrapper">
+                            <a target="_blank"
+                                href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                                class="ratings-a"><img class="img-review" src="assets/Images/google logo.svg"
+                                    alt="Google Reviews"></a> <a target="_blank"
+                                href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                                class="ratings-txt">Reviews</a>
+                        </div>
+                        <div class="review-wrapper">
+                            <a target="_blank"
+                                href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                                class="ratings-a"><img class="img-review" src="assets/Images/TripAdvisor logo.svg"
+                                    alt="TripAdvisor"></a> <a target="_blank"
+                                href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                                class="ratings-txt">TripAdvisor</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="footer-a " style="font-weight: 600;" href="contact.html">FAQ</a>
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="contact-mr">
+                <div class="foot-contact-us">
+                    <h3 class="footer-h3">Contact Us</h3>
+
+                    <div class="contacts-wrop-mr">
+                        <p class="footer-p">CALL:<a target="_blank" href="mailto:" class="footer-a">+45 86 31 88
+                                88</a>
+                        </p>
+                        <p class="footer-p">EMAIL: <a target="_blank" href="mailto:"
+                                class="footer-a">info@bofogvin.dk</a></p>
+                        <p class="footer-p">ADDRESS: <a target="_blank" href="mailto:" class="footer-a">Østerågade
+                                18 C,
+                                9000 Aalborg</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="hr-mr"> </div>
+        <div class="opening-hours-mr">
+            <div class="foot-opening-hours">
+                <h3 class="footer-h3 h3-adj-mr">Opening Hours</h3>
+                <div>
+                    <p class="footer-p opening-h-p">
+                        <strong style="color: #ffffff;">Monday – Thursday:</strong> &ensp; - kl. 17:00 – 22:00
+                        <br> <strong style="color: #ffffff;">Friday – Saturday: </strong> &emsp; - kl . 16:00 – 23:00
+                        <br> <strong style="color: #ffffff;">Sunday:</strong> &ensp; - Lukket.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="hr-mr"> </div>
+        <div class="kontrol-mr">
+            <div class="review-wrapper rev-wrap-adj">
+                <a target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-a">
+                    <img class="img-review" src="assets/Images/Kontrol Report.svg" alt="Kontrol Report"></a> <a
+                    target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-txt">Kontrol Report</a>
+            </div>
+            <div class="fo-icons fo-icons-adj">
+
+                <a target="_blank" href="https://www.facebook.com/BofogVin/" class="img-a"><img class="img-social "
+                        src="assets/Images/Facebook.svg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/bofogvin/" class="img-a"><img class="img-social "
+                        src="assets/Images/Instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <!---------------------------------- Footer ENDS ---------------------------------------->
+
+</body>
+
+</html>

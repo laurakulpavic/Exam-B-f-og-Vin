@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+}
+
+
+/* !!!! BUTTON PRIMARY STYLE - we apply this class for every button and then we just add 
+another specific class for each one to change the width !!!!! */
+
+.all-buttons {
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    height: 1.5rem;
+    background: #96192B;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.all-buttons:hover {
+    color: #96192B;
+    background-color: white;
+}
+
+
+/* Reservation button */
+
+.reserve-btn {
+    width: 10rem;
+}
+
+.i-reserve {
+    margin-left: .8em;
+}
+
+
+/* Menu button */
+
+.menu-btn {
+    width: 7rem;
+}
+
+
+/* Monthly Menu button */
+
+.monthly-menu-btn {
+    width: 11rem;
+}
+
+
+/* Monthly Menu button */
+
+.read-more-btn {
+    width: 8rem;
+}
+
+
+/* Contact Us Button */
+
+.contact-us-btn {
+    width: 8rem;
+}
+
+
+/* EXPLORE FULL MENU Button*/
+
+.explore-menu-btn {
+    width: 13rem;
+}
+
+
+/* EXPLORE MONTHLY MENU Button*/
+
+.explore-monthly-btn {
+    width: 16rem;
+}
+
+
+/* NAV MOBILE */
+
+svg {
+    height: 80px;
+    position: absolute;
+    width: 80px;
+}
+
+.plates {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 160px;
+    width: 640px;
+}
+
+@media (max-width: 640px) {
+    .plates {
+        width: 320px;
+    }
+}
+
+.plate {
+    height: 80px;
+    width: 80px;
+}
+
+.burger {
+    filter: url(#gooeyness);
+}
+
+.x {
+    transform: scale(0);
+    transition: transform 400ms;
+}
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+}
+
+.x .line {
+    stroke-width: 5.5px;
+}
+
+
+/* Die vierte teller */
+
+.plate4 .x {
+    transition: transform 400ms;
+}
+
+.plate4 .line {
+    transform-origin: 50%;
+    transition: transform 400ms 100ms;
+}
+
+.active.plate4 .line {
+    transition: transform 400ms;
+}
+
+.active.plate4 .line1 {
+    transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(.7);
+}
+
+.active.plate4 .line2 {
+    transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(.7);
+}
+
+.active.plate4 .line3 {
+    transform: translateY(0px) rotate(45deg) scale(.7);
+}
+
+.active.plate4 .line4 {
+    transform: translateY(0px) rotate(-45deg) scale(.7);
+}
+
+.active.plate4 .line5 {
+    transform: translateX(18px) translateY(3px) rotate(45deg) scale(.7);
+}
+
+.active.plate4 .line6 {
+    transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(.7);
+}
+
+.active.plate4 .x {
+    transition: transform 400ms 100ms;
+    transform: scale(1);
+}

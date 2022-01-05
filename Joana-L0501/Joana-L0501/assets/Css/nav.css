@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* * {
+    outline: 1px solid #f00 !important;
+    box-sizing: border-box;
+} */
+
+.tet {
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #141414;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* margin-right: 22rem; */
+}
+
+.nav-links {
+    display: flex;
+    column-gap: 3em;
+    justify-content: center;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 3em;
+}
+
+.nav-a:hover {
+    color: #96192B;
+}
+
+.nav-a:active {
+    color: #96192B;
+}
+
+.nav-a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: .5em;
+    width: 5em;
+    text-align: center;
+}
+
+.all-buttons {
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    height: 1.5rem;
+    background: #96192B;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.all-buttons:hover {
+    color: #96192B;
+    background-color: white;
+}
+
+
+/* Reservation button */
+
+.reserve-btn-nav {
+    width: 10rem;
+    margin-left: -13em;
+}
+
+.i-reserve {
+    margin-left: .8em;
+}
+
+@media only screen and (max-width: 1440px) {
+    .nav-desktop {
+        column-gap: 3%;
+    }
+}
+
+@media only screen and (max-width: 1237px) {
+    .nav-links {
+        margin-left: -14em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-desktop {
+        column-gap: 2%;
+    }
+    .logo {
+        margin-right: 8em;
+    }
+    .nav-links {
+        column-gap: 1%;
+        margin-left: -16em;
+    }
+    /* FOOTER */
+    /* FOOTER */
+    .footer-desktop {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1em;
+        display: flex;
+        gap: 6%;
+    }
+    .footer-h3 {
+        color: white;
+        font-family: "Abril Fatface";
+        font-weight: 200;
+        font-size: 22px;
+    }
+    .review-wrapper {
+        width: 200px;
+    }
+    .foot-ratings {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 0em;
+        margin-left: 1em;
+    }
+    .reviews {
+        display: grid;
+        margin-bottom: 2.5em;
+    }
+    .ratings-a {
+        font-family: sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+        line-height: 0;
+    }
+    .img-social {
+        margin-top: 2em;
+    }
+    .opening-h-p {
+        line-height: 30px;
+        margin-bottom: 1.4em;
+        width: 169px;
+    }
+}
+
+@media only screen and (max-width: 957px) {
+    .nav-links {
+        margin-left: -23em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* PREVENT HORIZONTAL SCROLL */
+    /* NAV MOBILE */
+    .a-logo-mr {
+        display: inline-block;
+    }
+    .logo {
+        width: 17em;
+        margin: 0 !important;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .all-buttons-mobile {
+        display: block;
+        text-decoration: none;
+        font-family: sans-serif;
+        height: 2.5rem;
+        background: #96192B;
+        padding: 10px 5px 12px 5px;
+        text-align: center;
+        border-radius: 4px;
+        color: white;
+        font-weight: regular;
+        font-size: 17px;
+        line-height: -11;
+    }
+    .all-buttons-mobile:hover {
+        color: #96192B;
+        background-color: white;
+    }
+    /* Reservation button */
+    .reserve-btn-nav-mobile {
+        width: 10rem;
+        height: 1em;
+        margin-left: 1.3em;
+        margin-bottom: 1em;
+    }
+    .burger-menu {
+        margin-top: 0;
+    }
+    .nav-mobile {
+        width: 100vw;
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        top: 0;
+        background-color: #141414;
+        z-index: 1;
+        padding: 1%;
+        margin-bottom: 4%;
+    }
+    .nav-a:hover {
+        color: #ffffff;
+    }
+    .nav-a:active {
+        color: #ffffff;
+    }
+    .line {
+        stroke: white !important;
+    }
+    .svg-container {
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+    .burger-menu svg {
+        height: 45px;
+        position: absolute;
+        width: 50px;
+        /* margin: -1em;
+        margin-top: -1.85em; */
+    }
+    .plates {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 160px;
+        width: 50px;
+    }
+    @media (max-width: 640px) {
+        .plates {
+            width: 50px;
+        }
+    }
+    .plate {}
+    .burger-menu {
+        margin-top: 0;
+        position: relative;
+        margin-right: .5em;
+    }
+    .burger {
+        filter: url(#gooeyness);
+    }
+    .x {
+        transform: scale(0);
+        transition: transform 400ms;
+    }
+    .line {
+        fill: none;
+        stroke: black;
+        stroke-width: 6px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transform-origin: 50%;
+        transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+    }
+    .x .line {
+        stroke-width: 5.5px;
+    }
+    /* Die vierte teller */
+    .plate4 .x {
+        transition: transform 400ms;
+    }
+    .plate4 .line {
+        transform-origin: 50%;
+        transition: transform 400ms 100ms;
+    }
+    .active.plate4 .line {
+        transition: transform 400ms;
+    }
+    .active.plate4 .line1 {
+        transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(.7);
+    }
+    .active.plate4 .line2 {
+        transform: translateX(-25px) translateY(-3px) rotate(45deg) scale(.7);
+    }
+    .active.plate4 .line3 {
+        transform: translateY(-29px) rotate(45deg) scale(.7);
+    }
+    .active.plate4 .line4 {
+        transform: translateY(-10px) rotate(-45deg) scale(.7);
+    }
+    .active.plate4 .line5 {
+        transform: translateX(1px) translateY(3px) rotate(45deg) scale(.7);
+    }
+    .active.plate4 .line6 {
+        transform: translateX(25px) translateY(3px) rotate(-45deg) scale(.7);
+    }
+    .active.plate4 .x {
+        transition: transform 400ms 100ms;
+        transform: scale(1);
+    }
+    /* NAV BOX */
+    .mobile-nav-box {
+        margin-top: .4em;
+        width: 31%;
+        background-color: #96192B;
+        position: fixed;
+        left: 69.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .nav-ul {
+        display: block;
+        padding-top: 1em;
+        margin-left: -1em;
+    }
+    .nav-li {
+        margin-bottom: 1em;
+    }
+    .nav-a {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /* NAV MOBILE */
+    .logo {
+        width: 11em;
+    }
+    /* Reservation button */
+    .reserve-btn-nav-mobile {
+        width: 10rem;
+    }
+    .burger-menu {
+        width: 40px;
+        top: -0.2em;
+    }
+    .svg-container {
+        position: relative;
+        width: 30px;
+        height: 40px;
+    }
+    .burger-menu svg {
+        height: 30px;
+        position: absolute;
+        width: 40px;
+        /* margin: -1em;
+        margin-top: -1.85em; */
+    }
+    .plates {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 160px;
+        width: 40px;
+    }
+    @media (max-width: 640px) {
+        .plates {
+            width: 40px;
+        }
+    }
+    .line {
+        fill: none;
+        stroke: black;
+        stroke-width: 7px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transform-origin: 50%;
+        transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+    }
+    .x .line {
+        stroke-width: 5.5px;
+    }
+    /* NAV BOX */
+    .mobile-nav-box {
+        margin-top: .3em;
+        width: 53vw;
+        background-color: #96192B;
+        position: fixed;
+        left: 50vw;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* NAV MOBILE */
+    /* Reservation button */
+    .reserve-btn-nav-mobile {
+        width: 9rem;
+    }
+    .nav-mobile {
+        display: flex;
+        gap: 40%;
+    }
+    /* NAV BOX */
+    .mobile-nav-box {
+        margin-top: .2em;
+        width: 53vw;
+        background-color: #96192B;
+        position: fixed;
+        left: 50vw;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* NAV MOBILE */
+    .logo {
+        width: 9.7em;
+        margin-right: .5em;
+        margin-top: .2em;
+    }
+    /* Reservation button */
+    .reserve-btn-nav-mobile {
+        width: 8rem;
+        font-size: 14px;
+    }
+    .burger-menu {
+        width: 40px;
+        top: -0.2em;
+    }
+    .svg-container {
+        position: relative;
+        width: 30px;
+        height: 40px;
+    }
+    .burger-menu svg {
+        height: 30px;
+        position: absolute;
+        width: 40px;
+        /* margin: -1em;
+        margin-top: -1.85em; */
+    }
+    .plates {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 160px;
+        width: 40px;
+    }
+    @media (max-width: 640px) {
+        .plates {
+            width: 40px;
+        }
+    }
+    .line {
+        fill: none;
+        stroke: black;
+        stroke-width: 7px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transform-origin: 50%;
+        transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+    }
+    .x .line {
+        stroke-width: 5.5px;
+    }
+    /* NAV BOX */
+    .mobile-nav-box {
+        margin-top: 0em;
+        width: 53vw;
+        background-color: #96192B;
+        position: fixed;
+        left: 50vw;
+        border-radius: 4px;
+    }
+}

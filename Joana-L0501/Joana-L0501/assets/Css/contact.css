@@ -1,0 +1,655 @@
+/*   .......................... header contact ..........................  */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+h1 {
+    font-family: "Abril Fatface";
+    font-weight: 400;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -5;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.header-contact {
+    position: relative;
+    text-align: center;
+}
+
+.header-contact img {
+    width: 100%;
+    z-index: -1;
+}
+
+.header-contact-content {
+    width: 100%;
+    margin-top: 10%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.header-contact-content p {
+    width: 50%;
+    font-size: 1.4rem;
+    font-family: "calibri";
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*   .......................... info ..........................  */
+
+.bg-img img {
+    z-index: -5;
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+}
+
+.header-contact-title {
+    margin-top: 5%;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.header-contact-title p {
+    width: 40%;
+    font-size: 1.4rem;
+    font-family: "calibri";
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-info-contact {
+    display: grid;
+    width: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.contact1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: white;
+    text-align: center;
+}
+
+.contact1 img {
+    width: 8vw;
+}
+
+.contact1 p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+}
+
+.contact1 h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    font-family: "calibri";
+}
+
+.contact2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    color: white;
+}
+
+.contact2 img {
+    width: 8vw;
+}
+
+.contact2 h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    font-family: "calibri";
+}
+
+.contact2 p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+}
+
+.contact3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    color: white;
+}
+
+.contact3 img {
+    width: 8vw;
+}
+
+.contact3 h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    font-family: "calibri";
+}
+
+.contact3 p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+}
+
+
+/*   .......................... opening hours ..........................  */
+
+.opening-hours-bg {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../Images/bg-clock-2.jpg");
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.clock {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 50%;
+}
+
+.clock img {
+    width: 17vw;
+}
+
+.hours-cont {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: white;
+    margin-left: 10%;
+}
+
+.hours-cont p {
+    font-size: 1.5rem;
+    font-family: "calibri";
+}
+
+
+/*   .......................... FAQ ..........................  */
+
+.faq-content {
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin-top: 3%;
+}
+
+.faq-question {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    /* padding: 5%; */
+}
+
+.panel-title {
+    font-family: "calibri";
+    font-size: 1.4rem;
+    position: relative;
+    margin: 0;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* padding: 2%; */
+    display: block;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.panel-content {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: white;
+    font-family: "calibri";
+    font-size: 1.2rem;
+}
+
+.panel:checked~.panel-content {
+    height: auto;
+    opacity: 1;
+    padding: 3%;
+    color: rgb(0, 0, 0);
+}
+
+.plus {
+    position: absolute;
+    /* margin-left: 20px; */
+    /* margin-top: 4px; */
+    z-index: 5;
+    font-size: 1.7rem;
+    line-height: 100%;
+    user-select: none;
+    transition: .2s ease;
+    color: rgb(0, 0, 0);
+}
+
+.panel:checked~.plus {
+    transform: rotate(90deg);
+    color: rgb(0, 0, 0);
+}
+
+.panel {
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+
+/*   .......................... Map ..........................  */
+
+#map {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+
+/*   ................................................. Responsive ..............................................  */
+
+
+/*   .......................... web ..........................  */
+
+@media only screen and (max-width: 1024px) {
+    /*   ........ header contact .......  */
+    .header-contact-content {
+        margin-top: 7%;
+        font-size: 1.4rem;
+    }
+    .header-contact-content h1 {
+        font-size: 2rem;
+    }
+    .header-contact-content p {
+        width: 60%;
+        font-size: 1.2rem;
+    }
+    /*   ....... key............  */
+    .header-contact-title {
+        font-size: 1rem;
+    }
+    .header-contact-title p {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .grid-info-contact {
+        margin-top: 7%;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+    .contact1 h1 {
+        font-size: 1.7rem;
+    }
+    .contact1 p {
+        font-size: 1.2rem;
+    }
+    .contact2 h1 {
+        font-size: 1.7rem;
+    }
+    .contact2 p {
+        font-size: 1.2rem;
+    }
+    .contact3 h1 {
+        font-size: 1.7rem;
+    }
+    .contact3 p {
+        font-size: 1.2rem;
+    }
+    /*   .......................... opening hours ..........................  */
+    .clock {
+        margin-left: 30%;
+    }
+    .clock img {
+        width: 20vw;
+    }
+    .hours-cont p {
+        font-size: 1.3rem;
+        font-family: "calibri";
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /*   ........ header contact .......  */
+    .header-contact {
+        margin-top: 3em;
+    }
+    .header-contact-content {
+        font-size: 1.2rem;
+    }
+    .header-contact-content p {
+        width: 65%;
+        font-size: 1.1rem;
+    }
+    /*   ....... key............  */
+    .header-contact-title {
+        font-size: 0.9rem;
+    }
+    .header-contact-title p {
+        font-size: 1.1rem;
+    }
+    .grid-info-contact {
+        margin-top: 7%;
+        margin-bottom: 10%;
+    }
+    .contact1 h1 {
+        font-size: 1.5rem;
+    }
+    .contact1 p {
+        font-size: 1rem;
+    }
+    .contact2 h1 {
+        font-size: 1.5rem;
+    }
+    .contact2 p {
+        font-size: 1rem;
+    }
+    .contact3 h1 {
+        font-size: 1.5rem;
+    }
+    .contact3 p {
+        font-size: 1rem;
+    }
+    .panel-title {
+        font-size: 1.2rem;
+    }
+    .panel-content {
+        font-size: 1.1rem;
+    }
+    .faq-content {
+        width: 70%;
+    }
+    /*   .......................... opening hours ..........................  */
+    .clock {
+        margin-left: 30%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .clock img {
+        width: 20vw;
+    }
+    .hours-cont {
+        margin-left: 0%;
+    }
+    .hours-cont h1 {
+        font-size: 1.7rem;
+    }
+    .hours-cont p {
+        font-size: 1.3rem;
+        font-family: "calibri";
+    }
+}
+
+
+/*   .......................... phone ..........................  */
+
+@media only screen and (max-width: 600px) {
+    .mobile-nav-box {
+        margin-top: 0;
+        width: 38%;
+        background-color: #96192B;
+        position: fixed;
+        left: 63.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    /*   ........ header contact .......  */
+    .header-contact img {
+        width: 100%;
+        height: 30vh;
+    }
+    .header-contact-content {
+        margin-top: 7%;
+        font-size: 1.2rem;
+    }
+    .header-contact-content h1 {
+        font-size: 2rem;
+    }
+    .header-contact-content p {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    /*   ....... key............  */
+    .header-contact-title {
+        margin-top: 5%;
+        font-size: 0.8rem;
+    }
+    .header-contact-title p {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .grid-info-contact {
+        margin-top: 7%;
+        margin-bottom: 10%;
+        width: 95%;
+    }
+    .contact1 h1 {
+        font-size: 1.5rem;
+    }
+    .contact1 p {
+        font-size: 1.1rem;
+    }
+    .contact1 img {
+        width: 14vw;
+    }
+    .contact2 h1 {
+        font-size: 1.5rem;
+    }
+    .contact2 p {
+        font-size: 1.1rem;
+    }
+    .contact2 img {
+        width: 14vw;
+    }
+    .contact3 h1 {
+        font-size: 1.5rem;
+    }
+    .contact3 p {
+        font-size: 1.1rem;
+    }
+    .contact3 img {
+        width: 14vw;
+    }
+    .faq-content {
+        width: 80%;
+    }
+    /*   .......................... opening hours ..........................  */
+    .clock {
+        margin-left: 15%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .clock img {
+        width: 30vw;
+    }
+    .hours-cont {
+        margin-left: 0%;
+    }
+    .hours-cont h1 {
+        font-size: 1.7rem;
+    }
+    .hours-cont p {
+        font-size: 1.3rem;
+        font-family: "calibri";
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mobile-nav-box {
+        margin-top: 0;
+        width: 50%;
+        background-color: #96192B;
+        position: fixed;
+        left: 50.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .header-contact {
+        margin-top: 2em;
+    }
+    .faq-content {
+        width: 98%;
+    }
+}
+
+
+/*   .......................... phone ..........................  */
+
+@media only screen and (max-width: 376px) {
+    .mobile-nav-box {
+        margin-top: 0;
+        width: 53%;
+        background-color: #96192B;
+        position: fixed;
+        left: 48.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    /*   ........ header contact .......  */
+    .header-contact-content {
+        margin-top: 7%;
+        font-size: 1.2rem;
+    }
+    .header-contact-content h1 {
+        font-size: 2rem;
+    }
+    .header-contact-content p {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+    /*   ....... key............  */
+    .header-contact-title {
+        margin-top: 5%;
+        font-size: 0.8rem;
+    }
+    .header-contact-title p {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .grid-info-contact {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 95%;
+    }
+    .contact1 h1 {
+        font-size: 1.5rem;
+    }
+    .contact1 p {
+        font-size: 1.1rem;
+    }
+    .contact1 img {
+        width: 14vw;
+    }
+    .contact2 h1 {
+        font-size: 1.5rem;
+    }
+    .contact2 p {
+        font-size: 1.1rem;
+    }
+    .contact2 img {
+        width: 14vw;
+    }
+    .contact3 h1 {
+        font-size: 1.5rem;
+    }
+    .contact3 p {
+        font-size: 1.1rem;
+    }
+    .contact3 img {
+        width: 14vw;
+    }
+    /*   .......................... opening hours ..........................  */
+    .clock {
+        margin-left: 15%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .clock img {
+        width: 30vw;
+    }
+    .hours-cont {
+        margin-left: 0%;
+    }
+    .hours-cont h1 {
+        font-size: 1.5rem;
+    }
+    .hours-cont p {
+        font-size: 1.1rem;
+        font-family: "calibri";
+    }
+    .faq-content {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mobile-nav-box {
+        margin-top: 0;
+        width: 54%;
+        background-color: #96192B;
+        position: fixed;
+        left: 47.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .header-contact {
+        margin-top: 1.9em;
+    }
+}

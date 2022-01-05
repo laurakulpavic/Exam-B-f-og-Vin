@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <link rel="stylesheet" href="assets/Css/normalize.css">
+    <link rel="stylesheet" href="assets/Css/nav-footer.css">
+    <link rel="stylesheet" href="assets/Css/style.css">
+    <script defer src="/assets/Javascript/script.js"></script>
+    <title>Bøf Og Vin</title>
+</head>
+
+<body>
+    <nav class="nav-desktop">
+        <div>
+            <a href="index.html">
+                <img class="logo" src="assets/Images/Bof-vin_LOGO.svg" alt="">
+            </a>
+        </div>
+        <div class="nav-links">
+            <ul class="nav-ul">
+                <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+                <li class="nav-li"><a class="nav-a" href="menu.html#menu">Menu</a></li>
+                <li class="nav-li"><a class="nav-a" href="know-us.html">Know Us</a></li>
+                <li class="nav-li"><a class="nav-a" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-reserve-btn">
+            <a class="all-buttons reserve-btn-nav" href="#">Reservation<i class="far fa-calendar-alt i-reserve"></i></a>
+        </div>
+    </nav>
+
+    <!-- Burger menu -->
+    <nav id="nav-mobile" class="nav-mobile">
+        <div>
+            <a href="index.html">
+                <img class="logo" src="assets/Images/Bof-vin_LOGO.svg" alt="">
+            </a>
+        </div>
+
+        <div class="nav-reserve-btn">
+            <a class="all-buttons-mobile reserve-btn-nav-mobile" href="#">Reservation<i
+                    class="far fa-calendar-alt i-reserve"></i></a>
+        </div>
+
+
+        <div id="burger-menu" class="burger-menu">
+            <!-- Burger menu -->
+            <nav class="nav-mobile">
+                <svg>
+                    <defs>
+                        <filter id="gooeyness">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
+                            <feColorMatrix in="blur" mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
+                            <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="plates">
+
+                    <div class="plate plate4" onclick="this.classList.toggle('active')">
+                        <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line line1" d="M 50,35 H 30" />
+                            <path class="line line2" d="M 50,35 H 70" />
+                            <path class="line line3" d="M 50,50 H 30" />
+                            <path class="line line4" d="M 50,50 H 70" />
+                            <path class="line line5" d="M 50,65 H 30" />
+                            <path class="line line6" d="M 50,65 H 70" />
+                        </svg>
+                        <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line" d="M 34,32 L 66,68" />
+                            <path class="line" d="M 66,32 L 34,68" />
+                        </svg>
+                    </div>
+
+
+                </div>
+            </nav>
+
+
+        </div>
+
+    </nav>
+
+    <div id="mobile-nav-box" class="mobile-nav-box hide">
+        <ul class="nav-ul">
+            <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+            <li class="nav-li"><a class="nav-a" href="menu.html#menu">Menu</a></li>
+            <li class="nav-li"><a class="nav-a" href="know-us.html">Know Us</a></li>
+            <li class="nav-li"><a class="nav-a" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="tet">
+        <p>..................................</p>
+        <a href="menu.html#menu">Menu</a>
+        <p>..................................</p>
+        <a href="menu.html#monthly-menu">MMM Menu</a>
+        <p>..................................</p>
+        <a id="star" href="menu.html#starters">STARTERS</a>
+        <p>..................................</p>
+        <a href="menu.html#mainCourse">MAIN COURSE</a>
+        <p>..................................</p>
+        <a href="menu.html#desserts">DESSERTS</a>
+        <p>..................................</p>
+        <a href="menu.html#drinks">DRINKS</a>
+        <p>..................................</p>
+        <a href="menu.html#children">CHILDREN</a>
+        <p>..................................</p>
+        <a href="menu.html#luxury">LUXURY</a>
+    </div>
+
+
+    <!-- FOOTER DESKTOP-->
+
+    <footer class="footer-desktop">
+        <div class="foot-ratings">
+            <h3 class="footer-h3">Ratings</h3>
+            <div class="reviews">
+                <div class="review-wrapper">
+                    <a target="_blank"
+                        href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                        class="ratings-a"><img class="img-review" src="assets/Images/google logo.svg"
+                            alt="Google Reviews"></a> <a target="_blank"
+                        href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                        class="ratings-a">Google Reviews</a>
+                </div>
+                <div class="review-wrapper">
+                    <a target="_blank"
+                        href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                        class="ratings-a"><img class="img-review" src="assets/Images/TripAdvisor logo.svg"
+                            alt="TripAdvisor"></a> <a target="_blank"
+                        href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                        class="ratings-a">TripAdvisor</a>
+                </div>
+
+            </div>
+            <div class="review-wrapper">
+                <a target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-a"><img class="img-review" src="assets/Images/Kontrol Report.svg"
+                        alt="Kontrol Report"></a> <a target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-a">Kontrol Report</a>
+            </div>
+
+        </div>
+
+        <div class="vl"></div>
+
+        <div class="foot-contact-us">
+            <h3 class="footer-h3">Contact Us</h3>
+
+            <div class="fo-icons">
+                <p class="footer-p">CALL: &emsp;<a target="_blank" href="mailto:" class="footer-a">+45 86 31 88 88</a>
+                </p>
+                <p class="footer-p">EMAIL: &emsp; <a target="_blank" href="mailto:"
+                        class="footer-a">info@bofogvin.dk</a></p>
+                <p class="footer-p">ADDRESS: <a target="_blank" href="mailto:" class="footer-a">Østerågade 18 C, 9000
+                        Aalborg</a></p>
+            </div>
+            <div class="fo-icons">
+
+                <a target="_blank" href="https://www.facebook.com/BofogVin/" class="img-a"><img class="img-social"
+                        src="assets/Images/Facebook.svg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/bofogvin/" class="img-a"><img class="img-social"
+                        src="assets/Images/Instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+
+        <div class="vl"></div>
+
+
+        <div class="foot-opening-hours">
+            <h3 class="footer-h3">Opening Hours</h3>
+            <div>
+                <p class="footer-p opening-h-p">
+                    <strong style="color: #ffffff;">Monday – Thursday:</strong> &ensp; - kl. 17:00 – 22:00
+                    <br> <strong style="color: #ffffff;">Friday – Saturday: </strong> &emsp; - kl . 16:00 – 23:00
+                    <br> <strong style="color: #ffffff;">Sunday:</strong> &ensp; - Lukket.
+                </p>
+            </div>
+            <a class="footer-a " style="font-weight: 600;" href="contact.html">FAQ</a>
+        </div>
+
+    </footer>
+
+    <!-- FOOTER MOBILE-->
+
+    <footer class="footer-mobile">
+        <div class="ratings-contact-wrap-mr">
+            <div class="reviews-mr">
+                <div class="foot-ratings">
+                    <h3 class="footer-h3">Ratings</h3>
+                    <div class="reviews">
+                        <div class="review-wrapper">
+                            <a target="_blank"
+                                href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                                class="ratings-a"><img class="img-review" src="assets/Images/google logo.svg"
+                                    alt="Google Reviews"></a> <a target="_blank"
+                                href="https://www.google.com/search?q=b%C3%B8f+og+vin+%C3%A5lborg+google+reviews&sxsrf=AOaemvJQw4erDcfT4gGfx1jtncQbyxt-Lw%3A1640432541281&ei=nQPHYa2-EKePxc8P4PG-kAw&oq=b%C3%B8f+og+vin+%C3%A5lborg+google+revi&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BwgAEEcQsAM6BggAEBYQHjoCCCY6CAghEBYQHRAeOgcIIRAKEKABSgQIQRgASgQIRhgAUO8GWLQxYOs6aAFwAngAgAHJAYgBtQuSAQYxLjEwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x4649328cfe884b23:0xa07904f41078b715,1,,,"
+                                class="ratings-txt">Google Reviews</a>
+                        </div>
+                        <div class="review-wrapper">
+                            <a target="_blank"
+                                href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                                class="ratings-a"><img class="img-review" src="assets/Images/TripAdvisor logo.svg"
+                                    alt="TripAdvisor"></a> <a target="_blank"
+                                href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                                class="ratings-txt">TripAdvisor</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="footer-a " style="font-weight: 600;" href="contact.html">FAQ</a>
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="contact-mr">
+                <div class="foot-contact-us">
+                    <h3 class="footer-h3">Contact Us</h3>
+
+                    <div class="fo-icons">
+                        <p class="footer-p">CALL:<a target="_blank" href="mailto:" class="footer-a">+45 86 31 88 88</a>
+                        </p>
+                        <p class="footer-p">EMAIL: <a target="_blank" href="mailto:"
+                                class="footer-a">info@bofogvin.dk</a></p>
+                        <p class="footer-p">ADDRESS: <a target="_blank" href="mailto:" class="footer-a">Østerågade 18 C,
+                                9000 Aalborg</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr class="hr-mr">
+        <div class="opening-hours-mr">
+            <div class="foot-opening-hours">
+                <h3 class="footer-h3">Opening Hours</h3>
+                <div>
+                    <p class="footer-p opening-h-p">
+                        <strong style="color: #ffffff;">Monday – Thursday:</strong> &ensp; - kl. 17:00 – 22:00
+                        <br> <strong style="color: #ffffff;">Friday – Saturday: </strong> &emsp; - kl . 16:00 – 23:00
+                        <br> <strong style="color: #ffffff;">Sunday:</strong> &ensp; - Lukket.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <hr class="hr-mr">
+        <div class="kontrol-mr">
+            <div class="review-wrapper rev-wrap-adj">
+                <a target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-a">
+                    <img class="img-review" src="assets/Images/Kontrol Report.svg" alt="Kontrol Report"></a> <a
+                    target="_blank"
+                    href="https://www.tripadvisor.dk/Restaurant_Review-g189529-d12148896-Reviews-Bof_Og_Vin-Aalborg_North_Jutland_Jutland.html"
+                    class="ratings-txt">Kontrol Report</a>
+            </div>
+            <div class="fo-icons fo-icons-adj">
+
+                <a target="_blank" href="https://www.facebook.com/BofogVin/" class="img-a"><img class="img-social "
+                        src="assets/Images/Facebook.svg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/bofogvin/" class="img-a"><img class="img-social "
+                        src="assets/Images/Instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

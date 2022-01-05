@@ -1,0 +1,1249 @@
+/*   .......................... header know us ..........................  */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -5;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+h1 {
+    font-family: "Abril Fatface";
+    font-weight: 400;
+}
+
+.header-know {
+    position: relative;
+    text-align: center;
+}
+
+.header-know img {
+    width: 100%;
+    z-index: -1;
+}
+
+.header-know-content {
+    width: 100%;
+    margin-top: 10%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.header-know-content h1 {
+    font-size: 2.4rem;
+}
+
+.header-know-content p {
+    width: 50%;
+    font-size: 1.4rem;
+    font-family: "calibri";
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*   .......................... info know us ..........................  */
+
+.grid-info-know {
+    display: grid;
+    width: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    /* background-color: grey;  */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.know-intro h3 {
+    font-size: 2rem;
+    font-family: "Abril Fatface";
+    font-weight: 400;
+}
+
+.know-intro {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 90%;
+    /* margin-left: 30%; */
+    font-size: 1.3rem;
+    font-family: "calibri";
+    line-height: 1.5;
+    color: white;
+}
+
+.know-intro-img {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: auto;
+    text-align: center;
+}
+
+.know-intro-img img {
+    width: 80%;
+}
+
+.nav-reserve-btn-center {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 3em !important;
+    display: flex;
+    justify-content: center;
+}
+
+.reserve-btn-body {
+    width: 10rem;
+}
+
+.nav-reserve-btn-mobile {
+    display: none;
+}
+
+
+/*   .......................... key ..........................  */
+
+.header-know-key {
+    margin-top: 7%;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.header-know-key p {
+    font-size: 1.3rem;
+    font-family: "calibri";
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-info-key {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.key1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: white;
+    text-align: center;
+}
+
+.key1 img {
+    width: 50%;
+}
+
+.key1 p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-family: "calibri";
+}
+
+.key1 h1 {
+    font-size: 1.9rem;
+    font-family: "calibri";
+}
+
+.key2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    color: white;
+}
+
+.key2 img {
+    width: 50%;
+}
+
+.key2 p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-family: "calibri";
+}
+
+.key2 h1 {
+    font-size: 1.9rem;
+    font-family: "calibri";
+}
+
+.key3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    color: white;
+}
+
+.key3 img {
+    width: 50%;
+}
+
+.key3 p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-family: "calibri";
+}
+
+.key3 h1 {
+    font-size: 1.9rem;
+    font-family: "calibri";
+}
+
+.key4 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    color: white;
+}
+
+.key4 img {
+    width: 50%;
+}
+
+.key4 p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-family: "calibri";
+}
+
+.key4 h1 {
+    font-size: 1.9rem;
+    font-family: "calibri";
+}
+
+
+/*   ..........................chef and food ..........................  */
+
+.grid-chef {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.right-chef {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-image: url("../images/img-know-bg.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.right-text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line-text {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: "calibri";
+    margin-bottom: -30px;
+}
+
+.line-text .line-red {
+    width: 50px;
+    height: 3px;
+    background-color: #96192B;
+}
+
+.text-medium-chef {
+    font-size: 1.4rem;
+    margin-top: -10px;
+    font-family: "calibri";
+}
+
+.text-chef {
+    font-size: 1.4rem;
+    margin-top: 5%;
+    font-family: "calibri";
+}
+
+.left-chef {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-image: url("../images/img-know-1.jpg");
+    background-size: cover;
+}
+
+
+/*   ....... box-2 ......  */
+
+.right-chef-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-image: url("../images/img-know-bg.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.left-chef-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-image: url("../images/img-know-2.jpg");
+    background-size: cover;
+}
+
+
+/*   ....... btn ......  */
+
+.res-center {
+    margin-top: 5%;
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*   .......................... gallery ..........................  */
+
+.image-mosaic {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+    margin-bottom: 5%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 600px) {
+    /* .card img {
+        width: 100vw;
+      } */
+    .card-tall {
+        grid-row: span 2 / auto;
+    }
+    .card-wide {
+        grid-column: span 2 / auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card img {
+        width: 100%;
+    }
+}
+
+
+/*   .......................... zoom animation ..........................  */
+
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(49, 49, 49, 0.8);
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    max-width: 1200px;
+}
+
+
+/* The Close Button */
+
+.close {
+    z-index: 6;
+    color: white;
+    position: absolute;
+    /* top: 10px; */
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    color: rgba(47, 47, 47, 0.8);
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    opacity: 0.7;
+}
+
+
+/*   ................................................. Responsive ..............................................  */
+
+
+/*   .......................... web ..........................  */
+
+@media only screen and (max-width: 1024px) {
+    /*   .............. intro ..............  */
+    .header-know {
+        margin-top: 4em;
+    }
+    .header-know-content {
+        margin-top: 7%;
+    }
+    .header-know-content h1 {
+        font-size: 2rem;
+    }
+    .header-know-content p {
+        width: 60%;
+        font-size: 1.2rem;
+    }
+    /*   .............. intro ..............  */
+    .know-intro h3 {
+        font-size: 1.6rem;
+    }
+    .know-intro {
+        font-size: 1.1rem;
+        /* margin-left: 20%; */
+        width: 90%;
+    }
+    .know-intro-img img {
+        width: 85%;
+        /* margin-top: 8%; */
+    }
+    /*   .............. key ..............  */
+    .header-know-key {
+        font-size: 1rem;
+    }
+    .header-know-key p {
+        font-size: 1.2rem;
+    }
+    .key1 h1 {
+        font-size: 1.6rem;
+    }
+    .key1 p {
+        width: 75%;
+        font-size: 1.1rem;
+    }
+    .key2 h1 {
+        font-size: 1.6rem;
+    }
+    .key2 p {
+        width: 75%;
+        font-size: 1.1rem;
+    }
+    .key3 h1 {
+        font-size: 1.6rem;
+    }
+    .key3 p {
+        width: 75%;
+        font-size: 1.1rem;
+    }
+    .key4 h1 {
+        font-size: 1.6rem;
+    }
+    .key4 p {
+        width: 75%;
+        font-size: 1.1rem;
+    }
+    /*   .............. chef and food ..............  */
+    /*   ....... box-1 ......  */
+    .line-text {
+        font-size: 1rem;
+    }
+    .line-text .line-red {
+        width: 40px;
+        height: 2px;
+    }
+    .text-medium-chef {
+        font-size: 1.1rem;
+        margin-top: -15px;
+    }
+    .text-chef {
+        font-size: 1.1rem;
+        margin-top: 3%;
+    }
+    /*   ....... btn ......  */
+    .res-center {
+        width: 17%;
+    }
+}
+
+
+/*   .......................... tablet ..........................  */
+
+@media only screen and (max-width: 768px) {
+    /*   .............. header ..............  */
+    .header-know {
+        margin-top: 3em;
+    }
+    .header-know-content {
+        margin-top: 5%;
+    }
+    .header-know-content h1 {
+        font-size: 1.8rem;
+    }
+    .header-know-content p {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+    /*   .............. intro ..............  */
+    .grid-info-know {
+        width: 95%;
+    }
+    .know-intro h3 {
+        font-size: 1.4rem;
+    }
+    .know-intro {
+        font-size: 1.1rem;
+        margin-left: 0%;
+        width: 90%;
+    }
+    .know-intro-img img {
+        width: 95%;
+    }
+    /*   .............. key ..............  */
+    .grid-info-key {
+        width: 90%;
+    }
+    .key1 h1 {
+        font-size: 1.4rem;
+    }
+    .key1 p {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .key2 h1 {
+        font-size: 1.4rem;
+    }
+    .key2 p {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .key3 h1 {
+        font-size: 1.4rem;
+    }
+    .key3 p {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .key4 h1 {
+        font-size: 1.4rem;
+    }
+    .key4 p {
+        width: 90%;
+        font-size: 1rem;
+    }
+    /*   .............. chef and food ..............  */
+    /*   ....... box-1 ......  */
+    .line-text {
+        font-size: 0.9rem;
+    }
+    .line-text .line-red {
+        width: 30px;
+        height: 1px;
+    }
+    .text-medium-chef {
+        font-size: 1rem;
+    }
+    .right-text h1 {
+        font-size: 1.2rem;
+    }
+    .text-chef {
+        font-size: 1rem;
+        margin-top: 0%;
+    }
+    /*   ....... box-2 ......  */
+    /*   ....... btn ......  */
+    .res-center {
+        width: 20%;
+    }
+    /*   ............................... Gallery ...............................  */
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1200px;
+    }
+}
+
+
+/*   .......................... phone ..........................  */
+
+@media only screen and (max-width: 600px) {
+    .mobile-nav-box {
+        margin-top: .2em;
+        width: 34%;
+        background-color: #96192B;
+        position: fixed;
+        left: 66.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .header-know img {
+        width: 100%;
+        height: 30vh;
+    }
+    /*   .............. intro ..............  */
+    .header-know-content {
+        margin-top: 5%;
+    }
+    .header-know-content h1 {
+        font-size: 1.7rem;
+    }
+    .header-know-content p {
+        width: 85%;
+        font-size: 1.1rem;
+    }
+    /*   .......................... info know us ..........................  */
+    .grid-info-know {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .know-intro h3 {
+        font-size: 1.6rem;
+    }
+    .know-intro {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .know-intro-img {
+        margin-top: 5%;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        text-align: center;
+    }
+    .know-intro-img img {
+        width: 70%;
+    }
+    .hide {
+        display: none;
+    }
+    .nav-reserve-btn-mobile {
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    /*   .......................... key ..........................  */
+    .header-know-key {
+        margin-top: 15%;
+        font-size: 0.8rem;
+    }
+    .header-know-key p {
+        font-size: 1.2rem;
+    }
+    .grid-info-key {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .key1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .key1 img {
+        width: 50%;
+    }
+    .key1 p {
+        width: 85%;
+    }
+    .key1 h1 {
+        font-size: 1.6rem;
+    }
+    .key2 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .key2 img {
+        width: 50%;
+    }
+    .key2 p {
+        width: 85%;
+    }
+    .key2 h1 {
+        font-size: 1.6rem;
+    }
+    .key3 {
+        margin-top: 3%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .key3 img {
+        width: 50%;
+    }
+    .key3 p {
+        width: 85%;
+    }
+    .key3 h1 {
+        font-size: 1.6rem;
+    }
+    .key4 {
+        margin-top: 3%;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .key4 img {
+        width: 50%;
+    }
+    .key4 p {
+        width: 85%;
+    }
+    .key4 h1 {
+        font-size: 1.6rem;
+    }
+    /*   ..........................chef and food ..........................  */
+    .grid-chef {
+        display: grid;
+        grid-template-rows: 1fr 0.7fr;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .right-chef {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url("../images/img-know-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+    }
+    .right-text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left-chef {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-image: url("../images/img-know-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*   ....... box-1 ......  */
+    .right-chef-2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url("../images/img-know-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+    }
+    .left-chef-2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-image: url("../images/img-know-2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .line-text {
+        font-size: 1.3rem;
+    }
+    .text-medium-chef {
+        font-size: 1.2rem;
+        margin-top: -10px;
+    }
+    .text-chef {
+        font-size: 1.2rem;
+        margin-top: 5%;
+    }
+    /*   ....... box-2 ......  */
+    /*   ....... btn ......  */
+    .res-center {
+        width: 45%;
+        margin-top: 7%;
+    }
+    /*   ............................... Gallery ...............................  */
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1200px;
+    }
+}
+
+
+/*   .......................... phone ..........................  */
+
+@media only screen and (max-width: 425px) {
+    .mobile-nav-box {
+        margin-top: .2em;
+        width: 50%;
+        background-color: #96192B;
+        position: fixed;
+        left: 50.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .header-know {
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mobile-nav-box {
+        margin-top: 0;
+        width: 53%;
+        background-color: #96192B;
+        position: fixed;
+        left: 48.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .header-know {
+        margin-top: 2em;
+    }
+    .mobile-nav-box {
+        margin-top: .1em;
+    }
+    /*   .............. intro ..............  */
+    .header-know-content {
+        margin-top: 10%;
+    }
+    .header-know-content h1 {
+        font-size: 1.7rem;
+    }
+    .header-know-content p {
+        width: 95%;
+        font-size: 1.1rem;
+    }
+    /*   .......................... info know us ..........................  */
+    .grid-info-know {
+        margin-top: 7%;
+    }
+    .know-intro h3 {
+        font-size: 1.6rem;
+    }
+    .know-intro {
+        font-size: 1.1rem;
+    }
+    .know-intro-img {
+        margin-top: 5%;
+    }
+    .know-intro-img img {
+        width: 70%;
+    }
+    .nav-reserve-btn-mobile {
+        margin-top: 4%;
+    }
+    /*   .......................... key ..........................  */
+    .header-know-key {
+        margin-top: 15%;
+        font-size: 0.9rem;
+    }
+    .header-know-key p {
+        font-size: 1.2rem;
+    }
+    .grid-info-key {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .key1 img {
+        width: 50%;
+    }
+    .key1 p {
+        width: 85%;
+    }
+    .key1 h1 {
+        font-size: 1.6rem;
+    }
+    .key2 img {
+        width: 50%;
+    }
+    .key2 p {
+        width: 85%;
+    }
+    .key2 h1 {
+        font-size: 1.6rem;
+    }
+    .key3 {
+        margin-top: 3%;
+    }
+    .key3 img {
+        width: 50%;
+    }
+    .key3 p {
+        width: 85%;
+    }
+    .key3 h1 {
+        font-size: 1.6rem;
+    }
+    .key4 {
+        margin-top: 3%;
+    }
+    .key4 img {
+        width: 50%;
+    }
+    .key4 p {
+        width: 85%;
+    }
+    .key4 h1 {
+        font-size: 1.6rem;
+    }
+    /*   ..........................chef and food ..........................  */
+    /*   ....... box-1 ......  */
+    .grid-chef {
+        display: grid;
+        grid-template-rows: 1fr 0.7fr;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .right-chef {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url("../images/img-know-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+    }
+    .right-text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left-chef {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-image: url("../images/img-know-2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*   ....... box-1 ......  */
+    .line-text {
+        font-size: 1.3rem;
+    }
+    .text-medium-chef {
+        font-size: 1.2rem;
+        margin-top: -10px;
+    }
+    .text-chef {
+        font-size: 1.2rem;
+        margin-top: 5%;
+    }
+    .line-text {
+        font-size: 1.3rem;
+    }
+    .text-medium-chef {
+        font-size: 1.2rem;
+        margin-top: -10px;
+    }
+    .text-chef {
+        font-size: 1.2rem;
+        margin-top: 5%;
+    }
+    /*   ....... box-2 ......  */
+    /*   ....... btn ......  */
+    .res-center {
+        width: 45%;
+        margin-top: 7%;
+    }
+    /*   ............................... Gallery ...............................  */
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1200px;
+    }
+}
+
+
+/*   .......................... phone ..........................  */
+
+@media only screen and (max-width: 320px) {
+    .mobile-nav-box {
+        margin-top: 0;
+        width: 54%;
+        background-color: #96192B;
+        position: fixed;
+        left: 47.7vw;
+        border-radius: 4px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .header-know {
+        margin-top: 1.9em;
+    }
+    .header-know img {
+        width: 100%;
+        height: 30vh;
+    }
+    /*   .......................... info know us ..........................  */
+    .grid-info-know {
+        margin-top: 7%;
+    }
+    /*   .......................... key ..........................  */
+    .header-know-key {
+        margin-top: 15%;
+        font-size: 0.8rem;
+    }
+    .header-know-key p {
+        font-size: 1rem;
+    }
+    /*   ..........................chef and food ..........................  */
+    .grid-chef {
+        display: grid;
+        grid-template-rows: 1fr 0.7fr;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .right-chef {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url("../images/img-know-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+    }
+    .right-text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left-chef {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-image: url("../images/img-know-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*   ....... box-1 ......  */
+    .line-text {
+        font-size: 1.2rem;
+    }
+    .text-medium-chef {
+        font-size: 1.1rem;
+        margin-top: -10px;
+    }
+    .text-chef {
+        font-size: 1.1rem;
+        margin-top: 3%;
+    }
+    /*   ....... box-2 ......  */
+    /*   ....... btn ......  */
+    .res-center {
+        width: 50%;
+        margin-top: 7%;
+    }
+    /*   ............................... Gallery ...............................  */
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1200px;
+    }
+}

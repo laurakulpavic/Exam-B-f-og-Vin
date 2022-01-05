@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <link rel="stylesheet" href="assets/Css/normalize.css">
+    <link rel="stylesheet" href="assets/Css/elements.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <a class="all-buttons reserve-btn" href="#">Reservation<i class="far fa-calendar-alt i-reserve"></i></a>
+
+        <hr></hr>
+
+        <a class="all-buttons menu-btn" href="#">MENU</i></a>
+
+        <hr></hr>
+
+
+        <a class="all-buttons monthly-menu-btn" href="#">MONTHLY MENU</i></a>
+
+
+        <hr></hr>
+
+        <a class="all-buttons read-more-btn" href="#">READ MORE</i></a>
+
+
+        <hr></hr>
+
+        <a class="all-buttons contact-us-btn" href="#">CONTACT US</i></a>
+
+        <hr></hr>
+
+        <a class="all-buttons explore-menu-btn" href="#">EXPLORE FULL MENU</i></a>
+
+
+        <hr></hr>
+
+        <a class="all-buttons explore-monthly-btn" href="#">EXPLORE MONTHLY MENU</i></a>
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <!-- Burger menu -->
+    <nav class="nav-mobile">
+        <svg>
+            <defs>
+              <filter id="gooeyness">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
+                <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+              </filter>
+            </defs>
+          </svg>
+        <div class="plates">
+
+            <div class="plate plate4" onclick="this.classList.toggle('active')">
+                <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                <path class="line line1" d="M 50,35 H 30" />
+                <path class="line line2" d="M 50,35 H 70" />
+                <path class="line line3" d="M 50,50 H 30" />
+                <path class="line line4" d="M 50,50 H 70" />
+                <path class="line line5" d="M 50,65 H 30" />
+                <path class="line line6" d="M 50,65 H 70" />
+              </svg>
+                <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                <path class="line" d="M 34,32 L 66,68" />
+                <path class="line" d="M 66,32 L 34,68" />
+              </svg>
+            </div>
+
+
+        </div>
+    </nav>
+</body>
+
+</html>
