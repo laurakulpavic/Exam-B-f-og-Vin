@@ -963,37 +963,6 @@ body {
     /*    position: relative; */
 }
 
-/* .video-section>video {
-    width: 50%;
-    vertical-align: left;
-}
-
-.video-section>ideo.has-media-controls-hidden::-webkit-media-controls {
-    display: none;
-}
-
-.video-overlay-play-button {
-    width: 90%;
-    height: 100%;
-    padding: 10px calc(50% - 50px);
-    position: absolute;
-    top: 10;
-    left: 10;
-    display: block;
-    opacity: 0.95;
-    cursor: pointer;
-    background-image: linear-gradient(transparent, #000);
-    transition: opacity 150ms;
-}
-
-.video-overlay-play-button:hover {
-    opacity: 1;
-}
-
-.video-overlay-play-button.is-hidden {
-    display: none;
-} */
-
 video {
     margin-left: 20%;
     margin-top: 7%;
