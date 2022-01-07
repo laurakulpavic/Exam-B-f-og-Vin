@@ -659,7 +659,7 @@ img.hover-shadow {
         width: 90%;
     }
     .know-intro-img img {
-        width: 95%;
+        width: 85%;
     }
     /*   .............. key ..............  */
     .grid-info-key {
@@ -902,7 +902,7 @@ img.hover-shadow {
         background-image: url("../images/img-know-1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -925,7 +925,7 @@ img.hover-shadow {
         background-image: url("../images/img-know-2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1090,6 +1090,7 @@ img.hover-shadow {
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
+        width: 100%;
         background-image: url("../images/img-know-bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -1105,10 +1106,10 @@ img.hover-shadow {
         grid-column-end: 4;
         grid-row-start: 2;
         grid-row-end: 4;
-        background-image: url("../images/img-know-2.jpg");
+        background-image: url("../images/img-know-1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1197,6 +1198,7 @@ img.hover-shadow {
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
+        width: 100%;
         background-image: url("../images/img-know-bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -1215,7 +1217,7 @@ img.hover-shadow {
         background-image: url("../images/img-know-1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }

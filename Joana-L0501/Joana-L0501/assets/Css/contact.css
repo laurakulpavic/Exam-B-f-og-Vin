@@ -222,7 +222,7 @@ h1 {
 .faq-content {
     margin: 0 auto;
     color: rgb(0, 0, 0);
-    width: 50%;
+    width: 60%;
     margin-top: 3%;
 }
 
@@ -270,8 +270,8 @@ h1 {
 
 .plus {
     position: absolute;
-    /* margin-left: 20px; */
-    /* margin-top: 4px; */
+   margin-top: 15px;
+   margin-left: 10px;
     z-index: 5;
     font-size: 1.7rem;
     line-height: 100%;
@@ -283,7 +283,7 @@ h1 {
 .panel:checked~.plus {
     transform: rotate(90deg);
     color: rgb(0, 0, 0);
-}
+ }
 
 .panel {
     display: none;
@@ -349,6 +349,15 @@ h1 {
     .contact3 p {
         font-size: 1.2rem;
     }
+/*   .......................... FAQ ..........................  */
+.faq-content {
+    width: 80%;
+}
+    .plus {
+        margin-top: 10px;
+          margin-left: 7px;
+       }
+
     /*   .......................... opening hours ..........................  */
     .clock {
         margin-left: 30%;
@@ -409,8 +418,15 @@ h1 {
     .panel-content {
         font-size: 1.1rem;
     }
+
+    /*   .......................... FAQ ..........................  */
+    
+    .plus {
+        margin-top: 7px;
+          margin-left: 7px;
+       }
     .faq-content {
-        width: 70%;
+        width: 90%;
     }
     /*   .......................... opening hours ..........................  */
     .clock {
@@ -481,7 +497,7 @@ h1 {
         font-size: 1.5rem;
     }
     .contact1 p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .contact1 img {
         width: 14vw;
@@ -490,7 +506,7 @@ h1 {
         font-size: 1.5rem;
     }
     .contact2 p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .contact2 img {
         width: 14vw;
@@ -499,13 +515,21 @@ h1 {
         font-size: 1.5rem;
     }
     .contact3 p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .contact3 img {
         width: 14vw;
     }
+
+    /*   .......................... FAQ ..........................  */
+    
+    .plus {
+        margin-top: 10px;
+          margin-left: 3px;
+          font-size: 1.4rem;
+       }
     .faq-content {
-        width: 80%;
+        width: 98%;
     }
     /*   .......................... opening hours ..........................  */
     .clock {
@@ -588,28 +612,28 @@ h1 {
         width: 95%;
     }
     .contact1 h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .contact1 p {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .contact1 img {
         width: 14vw;
     }
     .contact2 h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .contact2 p {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .contact2 img {
         width: 14vw;
     }
     .contact3 h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .contact3 p {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .contact3 img {
         width: 14vw;
@@ -633,12 +657,33 @@ h1 {
         font-size: 1.1rem;
         font-family: "calibri";
     }
+
+       /*   .......................... FAQ ..........................  */
+    
+       .plus {
+        margin-top: 5px;
+          margin-left: 3px;
+          font-size: 1.4rem;
+       }
     .faq-content {
-        width: 80%;
+        width: 98%;
     }
 }
 
 @media only screen and (max-width: 320px) {
+       /*   .......................... FAQ ..........................  */
+    
+       .plus {
+        margin-top: 7px;
+          margin-left: 1px;
+          font-size: 1rem;
+       }
+
+    .faq-content {
+        width: 98%;
+    }
+    
+
     .mobile-nav-box {
         margin-top: 0;
         width: 54%;
