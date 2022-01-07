@@ -2,5 +2,10 @@
     "cSpell.words": [
         "sdfsdgfd"
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#331082",
+        "titleBar.activeBackground": "#4816B6",
+        "titleBar.activeForeground": "#FDFCFF"
+    }
 }
