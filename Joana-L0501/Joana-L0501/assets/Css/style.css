@@ -50,6 +50,7 @@ a:hover {
     margin-top: 5%;
     margin-bottom: -13%;
 }
+
 #bg {
     position: fixed;
     top: -50%;
@@ -1045,7 +1046,7 @@ video {
 .working-hours-box2 {
     display: grid;
     grid-template-columns: 1fr;
-    background-image: url("../images/bg-hours-index.jpg");
+    background-image: url("../images/Backgound-test-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
