@@ -50,28 +50,6 @@ a:hover {
     margin-top: 5%;
     margin-bottom: -13%;
 }
-
-
-/* main, article, figure, section {
-    background-image: url("../images/Backgound-test-5.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
-
-/* body {
-    background: url("../images/Backgound-test-4.jpg");
-    width: 100%;
-    background-size: 100% 120%;
-    background-size: cover;
-} */
-
 #bg {
     position: fixed;
     top: -50%;
