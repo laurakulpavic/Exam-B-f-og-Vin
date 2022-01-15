@@ -1,0 +1,37 @@
+
+$primary_1: #96192B;
+$primary_2: #ffff;
+$primary_3: rgb(27, 27, 27);
+$myFont: "Abril Fatface";
+
+/* --------Buttons--------- */
+$myDisplay: block;
+$myDecoration: none;
+$myFont-btn: sans-serif;
+$myHeight: 1.5rem;
+$myBtnColour: #96192B;
+$myBtnPadding: 10px;
+$myBtnText: center;
+$myBtnBorder: 5px;
+$myColor: rgb(255, 255, 255);
+$myBtnFontWeight: regular;
+$myFontSize: 18px;
+
+
+.all-buttons {
+display:$myDisplay;
+text-decoration:$myDecoration;
+font-family: $myFont-btn;
+background-color: $primary_1;
+color: $primary_2;
+height: $myHeight;
+font-family:$myFont-btn;
+}
+
+body {
+    background-color: $primary_3;
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+}
+
